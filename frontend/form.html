@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <link rel="icon" href="assets/favicon.ico">
+
+  <title>Teste Agrotools</title>
+</head>
+<body>
+  <div id="header"></div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-6 card-container">
+        <div class="row">
+          <div class="col">
+            <h2 id="title"></h2>
+          </div>
+          <div class="col">
+            <div class="float-end">
+              <h6 id="date"></h6>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <form name="questions">
+            <div id="fields"></div>
+          </form>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="float-end">
+              <button type="submit" id="btnSubmit" class="btn btn-primary" onclick="answerForm()">Finalizar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/redirect.js"></script>
+  <script src="js/interface.js"></script>
+  <script src="js/form.js"></script>
+</body>
+</html>

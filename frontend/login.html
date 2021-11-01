@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <link rel="icon" href="assets/favicon.ico">
+
+  <title>Teste Agrotools</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-4 login-block">
+        <form name="loginForm">
+          <div class="mb-3">
+            <label for="userName" class="form-label">Usuário</label>
+            <input type="text" class="form-control" id="userName" name="userName">
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Senha</label>
+            <input type="password" class="form-control" id="password" name="password">
+          </div>
+          <button type="button" class="btn btn-primary mb-3" onclick="login()">Submit</button>
+
+          <div class="accordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse">
+                  Usuários mockados
+                </button>
+              </h2>
+              <div id="collapse" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>joao - 123</p>
+                  <p>paulo - 123</p>
+                  <p>ana - 123</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/login.js"></script>
+</body>
+</html>
